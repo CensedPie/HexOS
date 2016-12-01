@@ -1,0 +1,35 @@
+html {
+    height: 100%;
+}
+body {
+    background-color: #4b6082;
+}
+.startButton {
+    background-color: #919191;
+    box-shadow: 0px 0px 0px 0px #919191;
+    opacity: 0.55;
+    border-radius: 100%;
+    width: 10em;
+    height: 10em;
+    position: fixed;
+    top: 92.5%;
+    left: -3.5%;
+    z-index: 5;
+    transition: 0.5s,0.2s opacity,box-shadow ease-in-out;
+}
+.startButtonLogo {
+    border-color: #FFFFFF;
+    border-width: 0.45em;
+    border-style: solid;
+    border-radius: 100%;
+    width: 2em;
+    height: 2em;
+    position: relative;
+    top: 15.5%;
+    left: 50%;
+    z-index: 15;
+}
+.startButton:hover {
+    opacity: 1.0;
+    box-shadow: 0px 0px 75px 15px #919191;
+}
